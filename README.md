@@ -5,6 +5,7 @@ Parses the body stream of HTTP 1.1 chunked response
 ```javascript
 const http = require('http');
 const parseHeaderStream = require('parse-header-stream');
+const ParseHttpChunkedStream = require('parse-http-chunked-response');
 
 http.get('http://sample.com/chunked-response-endpoint', (res)=>{
     res.pipe(parseHeaderStream({})).on('body',(bodyStream)=>{
