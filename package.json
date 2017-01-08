@@ -1,0 +1,19 @@
+{
+  "name": "parse-http-chunked-response",
+  "version": "1.0.0",
+  "description": "Parses the body stream of HTTP 1.1 chunked response ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tweinfeld/parse-http-chunked-response.git"
+  },
+  "author": "Tal Weinfeld",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tweinfeld/parse-http-chunked-response/issues"
+  },
+  "homepage": "https://github.com/tweinfeld/parse-http-chunked-response#readme"
+}
